@@ -1,0 +1,175 @@
+.container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .card {
+            background-color: $dark-blue;
+            width: 88%;
+            max-width: 41rem;
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            text-align: center;
+
+          .title {
+              color: $white;
+          }
+          #message-form {
+
+            .message {
+                width: 100%;
+                margin: 1rem 0;
+                padding: 1rem;
+            }
+
+            .submitBtn {
+                cursor: pointer;
+                padding: .8rem 2rem;
+                letter-spacing: 1px;
+                font-weight: 700;
+                text-transform: uppercase;
+                background-color: $lighter-orange;
+                transition: 0.3s;
+                border: none;
+
+                &:hover {
+                    background-color: $orange;
+                    color: $white;
+                }
+            }
+
+          }
+
+          .feedback {
+              text-transform: uppercase;
+              margin: 1rem 0;
+              display: none;
+          }
+
+          .last-message {
+              color: $white;
+              text-transform: uppercase;
+              margin: 1rem;
+          }
+
+          .message-content {
+              text-transform: uppercase;
+              color: $orange;
+          }
+          
+          .show {
+              display: block;
+          }
+
+          .alert-danger{color:red;}
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container {
+//     width: 100vw;
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     .card {
+//         background-color: $dark-blue;
+//         width: 88%;
+//         max-width: 41rem;
+//         border-radius: 1.5rem;
+//         padding: 2.5rem;
+
+//         text-align: center;
+
+//         h1 {
+//             color: $white;
+//             padding: 1rem 0;
+//         }
+
+//         .flex {
+//             display: flex;
+//             flex-direction: column;
+
+//            .hide {
+//                visibility: hidden;
+//            }
+
+//             .input {
+//                 padding: 1rem;
+//                 margin-bottom: 1rem;
+//             }
+
+//             .submitBtn {
+//                 padding: 1rem;
+//                 cursor: pointer;
+//                 transition: 0.3s;
+//                 opacity: 0.6;
+//                 &:hover {
+//                     background-color: greenyellow;
+//                     color: white;
+//                     opacity: 1;
+//                 }
+//             }
+//         } 
+//     }
+// }
